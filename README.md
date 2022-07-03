@@ -7,7 +7,10 @@
 </a>  
 &nbsp  
 &nbsp  
-
+  
+  
+  
+  
 > 👤 Above are all the contributors and team members in charge of Computerizer's Backend  
 
 
