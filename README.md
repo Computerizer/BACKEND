@@ -6,8 +6,8 @@
 
 # Components
 
-<a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Blog'> BLOG </a>
-<a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Parts'> PARTS </a>
-<a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Oauth'> AUTH </a>
-<a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/TPA'> 3P API </a>
+- <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Blog'> BLOG </a>  
+- <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Parts'> PARTS </a>  
+- <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Oauth'> AUTH </a>  
+- <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/TPA'> 3P API </a>  
 
