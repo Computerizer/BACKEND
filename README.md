@@ -6,4 +6,4 @@
 
 # Components
 
-<a href'https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Blog'>BLOG</a>
+<a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Blog'> BLOG </a>
