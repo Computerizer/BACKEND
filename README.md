@@ -6,9 +6,7 @@
   <img src="https://contrib.rocks/image?repo=Computerizer/BACKEND" />
 </a>  
 
-> You can use [the @all-contributors bot 🤖](https://allcontributors.org/docs/en/bot/overview) to automate acknowledging contributors to your open source projects  
-
-# Components
+> 👤 Above are all the contributors and team members in charge of Computerizer's Backend
 
 - <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Computerizer'> ROOT </a>  
 - <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Blog'> BLOG </a>  
