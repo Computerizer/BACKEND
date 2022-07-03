@@ -4,7 +4,8 @@
 
 <a href="https://github.com/Computerizer/BACKEND/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Computerizer/BACKEND" />
-</a>
+</a>  
+
 > You can use [the @all-contributors bot 🤖](https://allcontributors.org/docs/en/bot/overview) to automate acknowledging contributors to your open source projects  
 
 # Components
