@@ -5,7 +5,7 @@
 <a href="https://github.com/Computerizer/BACKEND/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Computerizer/BACKEND" />
 </a>  
-<br />  
+<br>  
 > 👤 Above are all the contributors and team members in charge of Computerizer's Backend  
 
 
