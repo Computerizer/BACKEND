@@ -6,6 +6,7 @@
 
 # Components
 
+- <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Computerizer'> ROOT </a>  
 - <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Blog'> BLOG </a>  
 - <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Parts'> PARTS </a>  
 - <a href='https://github.com/Computerizer/BACKEND/tree/main/Computerizer/Oauth'> AUTH </a>  
