@@ -1,3 +1,5 @@
+<img src='https://github.com/Computerizer/META/blob/main/Name%20only%20(widescreen).png' width='100'>
+
 # Contributors 
 
 <a href="https://github.com/Computerizer/BACKEND/graphs/contributors">
