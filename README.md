@@ -4,4 +4,4 @@
   <img src="https://contrib.rocks/image?repo=Computerizer/BACKEND" />
 </a>
 
-Made with [contrib.rocks](https://contrib.rocks).
+
