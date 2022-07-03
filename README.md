@@ -1,4 +1,4 @@
-<img src='https://github.com/Computerizer/META/blob/main/Name%20only%20(widescreen).png' width='800'>
+<img src='https://github.com/Computerizer/META/blob/main/Name%20only%20(widescreen).png' width='1200'>
 
 # Contributors 
 
