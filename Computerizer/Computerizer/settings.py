@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xi-f@u^3n49lg1g6h(ms=a7g=lyy4f0%8n!_#0k37-krbxq1f#'
+SECRET_KEY = os.environ.get('COMPUTERIZER-DJANGO-KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -80,12 +80,8 @@ WSGI_APPLICATION = 'Computerizer.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.environ.get('COMPUTERIZER-DATABASE-NAME'),
-        'USER': 'fbvcjwibxrtfef',
-        'PASSWORD': os.environ.get('COMPUTERIZER-DATABASE-PASS'),
-        'HOST': 'ec2-34-233-115-14.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
 
