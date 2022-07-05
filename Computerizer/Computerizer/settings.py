@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('COMPUTERIZER-DJANGO-KEY')
+SECRET_KEY = 'django-insecure-xi-f@u^3n49lg1g6h(ms=a7g=lyy4f0%8n!_#0k37-krbxq1f#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -120,7 +120,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = 'Computerizer/static/'
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'Computerizer/static')
+]
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
