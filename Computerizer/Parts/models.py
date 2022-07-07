@@ -37,11 +37,6 @@ class CPU(models.Model):
     pass
 
 
-Amazon
-Newegg
-Bestbuy
-
-
 class GPU_Links(models.Model):
     Id = models.ForeignKey('GPU')
     Amazon_URL = models.TextField()
