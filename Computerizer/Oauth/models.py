@@ -9,6 +9,7 @@ from django.contrib.auth.models import (
     AbstractBaseUser
     )
 from django.forms import Widget
+from django.urls import reverse
 class CustomUserManager(BaseUserManager):
     def create_user(self,email,password=None,is_active=True,is_staff=False,is_admin=False):
         if not email:
@@ -40,10 +41,10 @@ class CustomUserManager(BaseUserManager):
         )
         return user
 class CustomUser(AbstractBaseUser):
+    username          = models.CharField(max_length= 200)
     first_name        = models.CharField(max_length = 300)
     last_name         = models.CharField(max_length = 300)
-    email             = models.EmailField(max_length=255,unique=True)
-    username          = models.CharField(max_length= 200)
+    email             = models.EmailField(max_length=255,unique=True)   
     password          = models.CharField(max_length=100,)
     password_2        = models.CharField(max_length=100,)
     sub_to_newsletter = models.BooleanField(default=True)
@@ -76,5 +77,5 @@ class CustomUser(AbstractBaseUser):
     @property
     def is_active(self):
         return self.active
-
-    pass
+    def get_absolute_url(request):
+        return reverse('')
