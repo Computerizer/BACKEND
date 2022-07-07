@@ -1,0 +1,1187 @@
+1655228828605	geckodriver	INFO	Listening on 127.0.0.1:51291
+1655228886975	geckodriver	INFO	Listening on 127.0.0.1:51321
+1655228903850	geckodriver	INFO	Listening on 127.0.0.1:51340
+1655230292309	geckodriver	INFO	Listening on 127.0.0.1:52827
+1655230295359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileUl5AFr"
+1655230295602	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52828
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileUl5AFr\\search.json.mozlz4", (void 0)))
+1655230296825	Marionette	INFO	Listening on port 52851
+DevTools listening on ws://localhost:52828/devtools/browser/a7ee15ba-e44f-4c20-acf0-b3ddf7ed15aa
+Read port: 52851
+1655230296929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655230337386	geckodriver	INFO	Listening on 127.0.0.1:52914
+1655230340452	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilekAJFNO"
+1655230340704	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52915
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilekAJFNO\\search.json.mozlz4", (void 0)))
+1655230341934	Marionette	INFO	Listening on port 52936
+DevTools listening on ws://localhost:52915/devtools/browser/d8dc2b3e-886c-4742-b2e5-18861f075be3
+Read port: 52936
+1655230342025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655230343779	Marionette	INFO	Stopped listening on port 52936
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655230376231	geckodriver	INFO	Listening on 127.0.0.1:52988
+1655230379283	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52989" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilepAorfs"
+1655230379515	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:52989
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilepAorfs\\search.json.mozlz4", (void 0)))
+1655230380741	Marionette	INFO	Listening on port 53013
+DevTools listening on ws://localhost:52989/devtools/browser/be26fa5e-6a99-41dc-9013-6388fde7d049
+Read port: 53013
+1655230380847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655230390270	Marionette	INFO	Stopped listening on port 53013
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655297438239	geckodriver	INFO	Listening on 127.0.0.1:55189
+1655297441283	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55190" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileT3izWV"
+1655297442185	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55190
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileT3izWV\\search.json.mozlz4", (void 0)))
+1655297453474	Marionette	INFO	Listening on port 55225
+Read port: 55225
+1655297453776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:55190/devtools/browser/acfb9c7f-55ed-4738-9e5f-f26c89633ea6
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.amazon.sa"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1655297462444	Marionette	INFO	Stopped listening on port 55225
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1655297577261	geckodriver	INFO	Listening on 127.0.0.1:55325
+1655297580300	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55326" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileH8xL8m"
+1655297580537	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55326
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileH8xL8m\\search.json.mozlz4", (void 0)))
+1655297581695	Marionette	INFO	Listening on port 55348
+DevTools listening on ws://localhost:55326/devtools/browser/5671f233-6c5d-4072-836b-c1370ff0bc72
+Read port: 55348
+1655297581749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655297670535	geckodriver	INFO	Listening on 127.0.0.1:55444
+1655297673586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55445" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileBB6xwJ"
+1655297673821	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55445
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileBB6xwJ\\search.json.mozlz4", (void 0)))
+1655297674926	Marionette	INFO	Listening on port 55465
+DevTools listening on ws://localhost:55445/devtools/browser/ce55ce8b-6d99-4aba-9091-4fbf3cccf911
+Read port: 55465
+1655297675036	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655297736312	geckodriver	INFO	Listening on 127.0.0.1:55532
+1655297739346	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilelRzNR9"
+1655297739587	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55533
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilelRzNR9\\search.json.mozlz4", (void 0)))
+1655297740755	Marionette	INFO	Listening on port 55555
+DevTools listening on ws://localhost:55533/devtools/browser/0dabb735-74fb-44f4-82fd-4682592e7193
+Read port: 55555
+1655297740800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655297901522	geckodriver	INFO	Listening on 127.0.0.1:55663
+1655297904547	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55664" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileGvNvqG"
+1655297904778	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55664
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileGvNvqG\\search.json.mozlz4", (void 0)))
+1655297906001	Marionette	INFO	Listening on port 55686
+DevTools listening on ws://localhost:55664/devtools/browser/11cfe8d4-e5cd-4b15-b595-28485277b524
+Read port: 55686
+1655297906113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655297999643	geckodriver	INFO	Listening on 127.0.0.1:55798
+1655298002692	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55799" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileHIDP2g"
+1655298002976	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55799
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileHIDP2g\\search.json.mozlz4", (void 0)))
+1655298004372	Marionette	INFO	Listening on port 55825
+DevTools listening on ws://localhost:55799/devtools/browser/423dcce7-1397-46e7-8fa6-067b45f7715c
+Read port: 55825
+1655298004480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+1655299022390	geckodriver	INFO	Listening on 127.0.0.1:55962
+1655299025447	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileSovNhX"
+1655299025684	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:55963
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileSovNhX\\search.json.mozlz4", (void 0)))
+1655299026939	Marionette	INFO	Listening on port 55988
+DevTools listening on ws://localhost:55963/devtools/browser/f1d6bf2a-6e8d-4e5e-8504-ae18e3adab22
+Read port: 55988
+1655299027011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Fp7ECwttPu2Qt8V9RhmSdP8PTUkobZWfkzIiSeRIuag.js line 2 > eval line 387 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://www.futbin.com/22/player/25361/virgil-van-dijk, line 1: ReferenceError: tlt is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0A402iRY5hLk7vfRuKaxnQONXP61muIeBT4Iz070aFY.js line 2 > eval line 3440 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655299052846	Marionette	INFO	Stopped listening on port 55988
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655299083696	geckodriver	INFO	Listening on 127.0.0.1:56201
+1655299086722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56202" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile6eLPsP"
+1655299086950	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:56202
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile6eLPsP\\search.json.mozlz4", (void 0)))
+1655299088232	Marionette	INFO	Listening on port 56224
+DevTools listening on ws://localhost:56202/devtools/browser/5c8bcaff-ef32-44cc-9e8c-25fb97827aed
+Read port: 56224
+1655299088308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript error: https://eus.rubiconproject.com/usync.js, line 4: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0A402iRY5hLk7vfRuKaxnQONXP61muIeBT4Iz070aFY.js line 2 > eval line 2270 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0A402iRY5hLk7vfRuKaxnQONXP61muIeBT4Iz070aFY.js line 2 > eval line 1935 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/0A402iRY5hLk7vfRuKaxnQONXP61muIeBT4Iz070aFY.js line 2 > eval line 5978 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/Fp7ECwttPu2Qt8V9RhmSdP8PTUkobZWfkzIiSeRIuag.js line 2 > eval line 602 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655299125231	Marionette	INFO	Stopped listening on port 56224
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655299218800	geckodriver	INFO	Listening on 127.0.0.1:59101
+1655299221847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59102" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilenp122N"
+1655299222067	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59102
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilenp122N\\search.json.mozlz4", (void 0)))
+1655299223246	Marionette	INFO	Listening on port 59124
+DevTools listening on ws://localhost:59102/devtools/browser/7a3f2386-f743-4ba0-a484-6edf0e7bd975
+Read port: 59124
+1655299223301	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 767))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+1655299234563	Marionette	INFO	Stopped listening on port 59124
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1655299277305	geckodriver	INFO	Listening on 127.0.0.1:59292
+1655299280345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59293" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileifpBN2"
+1655299280580	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59293
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileifpBN2\\search.json.mozlz4", (void 0)))
+1655299281858	Marionette	INFO	Listening on port 59315
+DevTools listening on ws://localhost:59293/devtools/browser/a0f753ae-cbc2-42c9-bb3b-59cbf2854879
+Read port: 59315
+1655299281915	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+1655299289020	Marionette	INFO	Stopped listening on port 59315
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655299435534	geckodriver	INFO	Listening on 127.0.0.1:59447
+1655299438580	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59448" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileXubTcB"
+1655299438829	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59448
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileXubTcB\\search.json.mozlz4", (void 0)))
+1655299440124	Marionette	INFO	Listening on port 59471
+DevTools listening on ws://localhost:59448/devtools/browser/64f5921b-b874-42ef-968e-0f15d6cb3950
+Read port: 59471
+1655299440173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+1655299452322	Marionette	INFO	Stopped listening on port 59471
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655299499033	geckodriver	INFO	Listening on 127.0.0.1:59609
+1655299502051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59610" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile0X4m18"
+1655299502286	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59610
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile0X4m18\\search.json.mozlz4", (void 0)))
+1655299503589	Marionette	INFO	Listening on port 59633
+DevTools listening on ws://localhost:59610/devtools/browser/95c435c6-0841-473a-b88a-19c3cd90091b
+Read port: 59633
+1655299503625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1444: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1456: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/comments.js?v=020921190100, line 1789: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/pages/player.min.js?v=270522170938, line 3: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+JavaScript warning: https://cdn.futbin.com/design/js/custom.min.js?v=112100622152200, line 2: unreachable code after return statement
+1655299511277	Marionette	INFO	Stopped listening on port 59633
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Emad\AppData\Local\Temp\rust_mozprofile0X4m18\protections.sqlite
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655300035410	geckodriver	INFO	Listening on 127.0.0.1:59815
+1655300038433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59816" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilev8b6ST"
+1655300038662	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59816
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilev8b6ST\\search.json.mozlz4", (void 0)))
+1655300039799	Marionette	INFO	Listening on port 59838
+DevTools listening on ws://localhost:59816/devtools/browser/fc3748fd-a45d-452f-9a6c-21960ab3e430
+Read port: 59838
+1655300039889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655300120101	geckodriver	INFO	Listening on 127.0.0.1:60013
+1655300123144	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60014" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileTfGGGN"
+1655300123378	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60014
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileTfGGGN\\search.json.mozlz4", (void 0)))
+1655300124474	Marionette	INFO	Listening on port 60036
+DevTools listening on ws://localhost:60014/devtools/browser/a37ea205-27c2-4054-b9e8-c9f562f47fad
+Read port: 60036
+1655300124597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655300129184	Marionette	INFO	Stopped listening on port 60036
+1655300159562	geckodriver	INFO	Listening on 127.0.0.1:60098
+1655300162592	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60099" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileUY4t5H"
+1655300162830	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60099
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileUY4t5H\\search.json.mozlz4", (void 0)))
+1655300167286	Marionette	INFO	Listening on port 60122
+DevTools listening on ws://localhost:60099/devtools/browser/5267be83-27b1-44b8-abca-a131b0b3e5f2
+Read port: 60122
+1655300167382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655300175175	Marionette	INFO	Stopped listening on port 60122
+[Parent 12540, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 694: TypeError: this.tablesData[table] is undefined
+[Parent 12540, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1655300231857	geckodriver	INFO	Listening on 127.0.0.1:60222
+1655300234919	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60223" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileQj45tr"
+1655300235156	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:60223
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileQj45tr\\search.json.mozlz4", (void 0)))
+1655300236303	Marionette	INFO	Listening on port 60245
+DevTools listening on ws://localhost:60223/devtools/browser/5a3f2030-78ec-4811-ac2b-a5098c0f17a9
+Read port: 60245
+1655300236390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655306322217	geckodriver	INFO	Listening on 127.0.0.1:61092
+1655306325259	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61093" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilei3jIRc"
+1655306325510	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61093
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilei3jIRc\\search.json.mozlz4", (void 0)))
+1655306326767	Marionette	INFO	Listening on port 61116
+DevTools listening on ws://localhost:61093/devtools/browser/9beadb8e-6f9f-426c-96ce-62f2aa8a2efb
+Read port: 61116
+1655306326830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655306328978	Marionette	INFO	Stopped listening on port 61116
+[Parent 8068, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1655306631338	geckodriver	INFO	Listening on 127.0.0.1:61241
+1655306634396	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilefjkUK3"
+1655306634616	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61242
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilefjkUK3\\search.json.mozlz4", (void 0)))
+1655306635817	Marionette	INFO	Listening on port 61266
+DevTools listening on ws://localhost:61242/devtools/browser/3d6069a5-824e-43af-a452-50b87bd7bd37
+Read port: 61266
+1655306635844	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1655309989402	geckodriver	INFO	Listening on 127.0.0.1:61695
+1655309992432	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileAbsW4w"
+1655309992656	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61696
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileAbsW4w\\search.json.mozlz4", (void 0)))
+1655309993892	Marionette	INFO	Listening on port 61720
+DevTools listening on ws://localhost:61696/devtools/browser/9058378d-fdd0-4164-9be9-2e5a542ea15f
+Read port: 61720
+1655309994005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655309996630	Marionette	INFO	Stopped listening on port 61720
+[Parent 20720, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+!!! error running onStopped callback: TypeError: callback is not a function
+1655310034512	geckodriver	INFO	Listening on 127.0.0.1:61777
+1655310037576	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61778" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileynrJLJ"
+1655310037797	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61778
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileynrJLJ\\search.json.mozlz4", (void 0)))
+1655310038937	Marionette	INFO	Listening on port 61801
+DevTools listening on ws://localhost:61778/devtools/browser/d4c6385b-e49d-477a-abaf-5890d64cb617
+Read port: 61801
+1655310039038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655310041343	Marionette	INFO	Stopped listening on port 61801
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1655479632023	geckodriver	INFO	Listening on 127.0.0.1:61034
+1655479635069	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61035" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileIgHQEr"
+1655479635405	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61035
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileIgHQEr\\search.json.mozlz4", (void 0)))
+1655479636618	Marionette	INFO	Listening on port 61048
+Read port: 61048
+1655479636644	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:61035/devtools/browser/14fcbff1-a588-4863-a5a4-86ade5c68c71
+1655479680996	geckodriver	INFO	Listening on 127.0.0.1:61212
+1655479684056	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61213" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileZ9S2UI"
+1655479684297	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61213
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileZ9S2UI\\search.json.mozlz4", (void 0)))
+1655479685495	Marionette	INFO	Listening on port 61248
+DevTools listening on ws://localhost:61213/devtools/browser/8a898e3d-6606-4332-a9af-cfd1970b6b23
+Read port: 61248
+1655479685616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655479818354	geckodriver	INFO	Listening on 127.0.0.1:61523
+1655479821406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61524" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileoq25vv"
+1655479821644	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61524
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileoq25vv\\search.json.mozlz4", (void 0)))
+1655479822760	Marionette	INFO	Listening on port 61539
+DevTools listening on ws://localhost:61524/devtools/browser/79cd399f-2b93-485f-9786-b0eeef3f1971
+Read port: 61539
+1655479822864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655479849426	geckodriver	INFO	Listening on 127.0.0.1:61677
+1655479852454	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61678" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileXVVDzP"
+1655479852691	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61678
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileXVVDzP\\search.json.mozlz4", (void 0)))
+1655479853846	Marionette	INFO	Listening on port 61702
+Read port: 61702
+1655479853920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:61678/devtools/browser/0ad1d3a5-e769-4459-92eb-8d497bea3b0f
+1655479856905	Marionette	INFO	Stopped listening on port 61702
+[Parent 17188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655479992895	geckodriver	INFO	Listening on 127.0.0.1:61905
+1655479995931	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61906" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilelV5EFi"
+1655479996179	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:61906
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilelV5EFi\\search.json.mozlz4", (void 0)))
+1655479997389	Marionette	INFO	Listening on port 61927
+DevTools listening on ws://localhost:61906/devtools/browser/23e09043-73d3-4605-a615-327010a7d88f
+Read port: 61927
+1655479997495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61F+i1lClDL.js?AUIClients/AmazonUIjQuery&KK9dlo3A#rtl-true.412402-T1.412405-T1, line 54: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1655480004942	Marionette	INFO	Stopped listening on port 61927
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655480045242	geckodriver	INFO	Listening on 127.0.0.1:62027
+1655480048282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62028" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileWWjuOs"
+1655480048512	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62028
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileWWjuOs\\search.json.mozlz4", (void 0)))
+1655480049633	Marionette	INFO	Listening on port 62051
+DevTools listening on ws://localhost:62028/devtools/browser/f3bc3088-a25c-4ead-950b-d10796f5857d
+Read port: 62051
+1655480049753	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655480052594	Marionette	INFO	Stopped listening on port 62051
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655480169409	geckodriver	INFO	Listening on 127.0.0.1:62118
+1655480172473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62119" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilepFzBH4"
+1655480172700	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62119
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilepFzBH4\\search.json.mozlz4", (void 0)))
+1655480173826	Marionette	INFO	Listening on port 62140
+DevTools listening on ws://localhost:62119/devtools/browser/5b938280-7139-4865-8aac-3b9337f120cc
+Read port: 62140
+1655480173940	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655480178484	Marionette	INFO	Stopped listening on port 62140
+[Parent 20680, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655480191184	geckodriver	INFO	Listening on 127.0.0.1:62203
+1655480194227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62204" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilemwrs76"
+1655480194467	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62204
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilemwrs76\\search.json.mozlz4", (void 0)))
+1655480195978	Marionette	INFO	Listening on port 62226
+DevTools listening on ws://localhost:62204/devtools/browser/2d646d3d-cc63-41bf-bd74-a12223233fee
+Read port: 62226
+1655480196025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61OyDXCWUAL.js?AUIClients/AmazonUIjQuery&LUqi3Imy#rtl-true.412402-T1, line 54: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1655480204455	Marionette	INFO	Stopped listening on port 62226
+1655480603699	geckodriver	INFO	Listening on 127.0.0.1:62505
+1655480606772	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62506" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilebDB7TS"
+1655480606994	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62506
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilebDB7TS\\search.json.mozlz4", (void 0)))
+1655480608129	Marionette	INFO	Listening on port 62525
+DevTools listening on ws://localhost:62506/devtools/browser/ce96fec9-2781-4094-b9c3-724133c06cec
+Read port: 62525
+1655480608225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61OyDXCWUAL.js?AUIClients/AmazonUIjQuery&LUqi3Imy#rtl-true.412402-T1, line 54: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61wzgHm223L.js?AUIClients/AmazonUIjQuery&LUqi3Imy#412402-T1, line 54: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1655480627145	Marionette	INFO	Stopped listening on port 62525
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 19908, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655480635425	geckodriver	INFO	Listening on 127.0.0.1:62709
+1655480638460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62710" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileJVrmUh"
+1655480638718	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:62710
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileJVrmUh\\search.json.mozlz4", (void 0)))
+1655480639969	Marionette	INFO	Listening on port 62732
+DevTools listening on ws://localhost:62710/devtools/browser/008a9f45-321d-4020-95f9-e8a74b125aa4
+Read port: 62732
+1655480640032	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655480644042	Marionette	INFO	Stopped listening on port 62732
+[Parent 2136, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655485481150	geckodriver	INFO	Listening on 127.0.0.1:64427
+1655485484187	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64428" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile8Bat9g"
+1655485484413	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:64428
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile8Bat9g\\search.json.mozlz4", (void 0)))
+1655485485608	Marionette	INFO	Listening on port 64451
+DevTools listening on ws://localhost:64428/devtools/browser/67cbbb6c-7c1e-4416-a146-611f1630d3b0
+Read port: 64451
+1655485485647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/61F+i1lClDL.js?AUIClients/AmazonUIjQuery&KK9dlo3A#rtl-true.412402-T1.412405-T1, line 54: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1655485493993	Marionette	INFO	Stopped listening on port 64451
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1655549004025	geckodriver	INFO	Listening on 127.0.0.1:53262
+1655549007077	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53263" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileWbIqPB"
+1655549007430	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53263
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileWbIqPB\\search.json.mozlz4", (void 0)))
+1655549008643	Marionette	INFO	Listening on port 53286
+DevTools listening on ws://localhost:53263/devtools/browser/4f3e9d5e-118b-4d9d-9c36-9a0d94355819
+Read port: 53286
+1655549008761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655549012691	Marionette	INFO	Stopped listening on port 53286
+1655549048022	geckodriver	INFO	Listening on 127.0.0.1:53375
+1655549051068	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53376" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileb0dmvT"
+1655549051299	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53376
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileb0dmvT\\search.json.mozlz4", (void 0)))
+1655549052415	Marionette	INFO	Listening on port 53398
+DevTools listening on ws://localhost:53376/devtools/browser/ec7aeadb-0475-43f9-b990-fea64ab2e022
+Read port: 53398
+1655549052535	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1655549055635	Marionette	INFO	Stopped listening on port 53398
+1655549120585	geckodriver	INFO	Listening on 127.0.0.1:53532
+1655549123635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53533" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileJi1dPf"
+1655549123867	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53533
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileJi1dPf\\search.json.mozlz4", (void 0)))
+1655549124985	Marionette	INFO	Listening on port 53555
+DevTools listening on ws://localhost:53533/devtools/browser/6f80b16d-9d8d-473d-ab3b-077e478f9a18
+Read port: 53555
+1655549125087	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9515 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655549137996	Marionette	INFO	Stopped listening on port 53555
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655549236148	geckodriver	INFO	Listening on 127.0.0.1:53742
+1655549239178	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53743" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileK2hfSo"
+1655549239399	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53743
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileK2hfSo\\search.json.mozlz4", (void 0)))
+1655549240508	Marionette	INFO	Listening on port 53765
+DevTools listening on ws://localhost:53743/devtools/browser/cd4d1469-ebae-455a-8d04-05fce791996a
+Read port: 53765
+1655549240631	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9494 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655549248548	Marionette	INFO	Stopped listening on port 53765
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_PredLearn) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_FailedAsyncOpen) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655549464776	geckodriver	INFO	Listening on 127.0.0.1:53927
+1655549467815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53928" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileibS47t"
+1655549468092	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:53928
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileibS47t\\search.json.mozlz4", (void 0)))
+1655549469377	Marionette	INFO	Listening on port 53950
+DevTools listening on ws://localhost:53928/devtools/browser/3444f982-8f53-44ab-b3c7-78ece1a382d0
+Read port: 53950
+1655549469487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9748 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ line 9561 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655549874755	geckodriver	INFO	Listening on 127.0.0.1:54181
+1655549877791	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54182" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile3yalTw"
+1655549878022	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:54182
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile3yalTw\\search.json.mozlz4", (void 0)))
+1655549879233	Marionette	INFO	Listening on port 54204
+Read port: 54204
+1655549879251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:54182/devtools/browser/2e6b468c-7620-4155-b96e-8a699acb81f9
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9904 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ line 9417 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766096430	geckodriver	INFO	Listening on 127.0.0.1:57457
+1655766099473	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57458" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileibcIyS"
+1655766099837	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57458
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileibcIyS\\search.json.mozlz4", (void 0)))
+1655766101207	Marionette	INFO	Listening on port 57480
+DevTools listening on ws://localhost:57458/devtools/browser/2d23f94e-3179-4b9d-9b65-2cc6cac9be62
+Read port: 57480
+1655766101276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9292 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766239062	geckodriver	INFO	Listening on 127.0.0.1:57676
+1655766242104	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57677" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileJvEr82"
+1655766242335	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57677
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileJvEr82\\search.json.mozlz4", (void 0)))
+1655766243485	Marionette	INFO	Listening on port 57699
+DevTools listening on ws://localhost:57677/devtools/browser/8fb24791-d47a-4781-95ff-68548fc99ae7
+Read port: 57699
+1655766243553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9049 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://images-na.ssl-images-amazon.com/images/I/71cs5NG6ojL.js?AUIClients/FWCIMAssets, line 289: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766297040	geckodriver	INFO	Listening on 127.0.0.1:57876
+1655766300086	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57877" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileoY3urD"
+1655766300319	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:57877
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileoY3urD\\search.json.mozlz4", (void 0)))
+1655766301497	Marionette	INFO	Listening on port 57900
+DevTools listening on ws://localhost:57877/devtools/browser/4ce2bc46-9485-4039-96d0-302bb6581702
+Read port: 57900
+1655766301594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/?th=1 line 9270 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 15068, MediaDecoderStateMachine #1] WARNING: 26fc0dbd130 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:317
+1655766323957	Marionette	INFO	Stopped listening on port 57900
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1655766342210	geckodriver	INFO	Listening on 127.0.0.1:58070
+1655766345247	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58071" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileDdZrrI"
+1655766345478	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58071
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileDdZrrI\\search.json.mozlz4", (void 0)))
+1655766346808	Marionette	INFO	Listening on port 58094
+DevTools listening on ws://localhost:58071/devtools/browser/5b66532d-d62b-41ff-81fe-42502175499f
+Read port: 58094
+1655766346904	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9292 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766475151	geckodriver	INFO	Listening on 127.0.0.1:58345
+1655766478204	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58346" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofiletizSCf"
+1655766478440	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58346
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofiletizSCf\\search.json.mozlz4", (void 0)))
+1655766479615	Marionette	INFO	Listening on port 58369
+DevTools listening on ws://localhost:58346/devtools/browser/6912678e-5b0f-41d6-b193-71d6c6fabd1e
+Read port: 58369
+1655766479660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9312 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766545669	geckodriver	INFO	Listening on 127.0.0.1:58547
+1655766548703	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58548" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilewAzVne"
+1655766549309	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58548
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilewAzVne\\search.json.mozlz4", (void 0)))
+1655766553232	Marionette	INFO	Listening on port 58573
+DevTools listening on ws://localhost:58548/devtools/browser/c19a0f5d-40f7-4abf-aff6-a0ad21d97c98
+Read port: 58573
+1655766553608	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9461 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766572932	Marionette	INFO	Stopped listening on port 58573
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 6360, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1655766596267	geckodriver	INFO	Listening on 127.0.0.1:58717
+1655766599320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58718" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileZgfKPu"
+1655766599542	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58718
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileZgfKPu\\search.json.mozlz4", (void 0)))
+1655766600703	Marionette	INFO	Listening on port 58740
+DevTools listening on ws://localhost:58718/devtools/browser/a9106131-838c-4a5c-a150-e100b0d6aa30
+Read port: 58740
+1655766600768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9476 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655766813854	geckodriver	INFO	Listening on 127.0.0.1:58960
+1655766816911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilemOqL0N"
+1655766817145	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:58961
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofilemOqL0N\\search.json.mozlz4", (void 0)))
+1655766818284	Marionette	INFO	Listening on port 58984
+DevTools listening on ws://localhost:58961/devtools/browser/a9e98f04-06aa-457a-b2fd-e689c113a177
+Read port: 58984
+1655766818373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9247 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655768438964	geckodriver	INFO	Listening on 127.0.0.1:59529
+1655768442009	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59530" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile3fmN4e"
+1655768442236	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59530
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofile3fmN4e\\search.json.mozlz4", (void 0)))
+1655768443421	Marionette	INFO	Listening on port 59552
+Read port: 59552
+1655768443457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:59530/devtools/browser/cbb64ffd-598c-43a4-baa1-ee324e199dbf
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9512 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9091 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655768464823	geckodriver	INFO	Listening on 127.0.0.1:59684
+1655768467870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59685" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileqVwGJd"
+1655768468103	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59685
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileqVwGJd\\search.json.mozlz4", (void 0)))
+1655768469274	Marionette	INFO	Listening on port 59707
+Read port: 59707
+1655768469328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://localhost:59685/devtools/browser/5ce905fc-ee7a-481d-955b-e933a6a39b16
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9609 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9183 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ line 9539 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ line 9539 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Intel-i7-12700K-Desktop-Processor-Unlocked/dp/B09FXNVDBJ/ line 9313 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/Intel-i7-12700K-Desktop-Processor-Unlocked/dp/B09FXNVDBJ/ line 9318 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655768492603	Marionette	INFO	Stopped listening on port 59707
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Reply_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PHttpChannel::Msg_DeleteSelf) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1655768580041	geckodriver	INFO	Listening on 127.0.0.1:59918
+1655768583071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileQFTQDb"
+1655768583299	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://localhost:59919
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Emad\\AppData\\Local\\Temp\\rust_mozprofileQFTQDb\\search.json.mozlz4", (void 0)))
+1655768584434	Marionette	INFO	Listening on port 59941
+DevTools listening on ws://localhost:59919/devtools/browser/2b454709-872d-42a3-bab8-b5ad0a98d983
+Read port: 59941
+1655768584517	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9334 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-5600X-12-Thread-Processor/dp/B08166SLDF/ line 9198 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ line 9537 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/AMD-Ryzen-3600X-12-Thread-Processor/dp/B07SQBFN2D/ line 9532 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/dp/B09FWYK5M9/ line 8635 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.com/dp/B09FWYK5M9/ line 8640 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1655768609400	Marionette	INFO	Stopped listening on port 59941
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
