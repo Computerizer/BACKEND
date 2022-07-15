@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'Blog',
     'Oauth',
     'Parts',
-    'TPA'
+    'TPA',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
