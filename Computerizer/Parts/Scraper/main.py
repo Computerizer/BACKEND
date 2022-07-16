@@ -56,6 +56,12 @@ class Scraper:
         return [XPath, CSSselector, CSSpath]
 #---------------------------------------------------------#
 
+# The get_price functions are built on two parts:
+#- The first part gets the whole number price on the left side of the decimal
+#- The second part gets the fraction on the right side of the decimal
+# It then returns a float of both numbers in the form (56.89 for instance)
+
+# Currently supports 3 platforms: AMAZON, NEWEGG, BESTBUY.
     @classmethod
     def get_price_amazon(cls, self):
         driver = webdriver.Firefox()
@@ -119,71 +125,41 @@ class Scraper:
             except:
                     return(f'\nNo price was found on amazon due to:\n {exception}')
 
+        try:
+            sleep(3)
+            element = driver.find_element_by_xpath(Decimal_Selectors[0])
+            decimal = element.get_attribute('innerHTML')
+        except NoSuchElementException:
             try:
                 sleep(3)
-                element = driver.find_element_by_xpath(Decimal_Selectors[0])
+                element = driver.find_element_by_css_selector(Decimal_Selectors[1])
                 decimal = element.get_attribute('innerHTML')
-            except NoSuchElementException:
-                try:
-                    sleep(3)
-                    element = driver.find_element_by_css_selector(Decimal_Selectors[1])
-                    decimal = element.get_attribute('innerHTML')
-                except:
-                    return(f'\nError finding decimal of price due to:\n {exception}')
+            except:
+                return(f'\nError finding decimal of price due to:\n {exception}')
+
         finally:
             driver.close()
             driver.quit()
             return(float(f'{price}.{decimal}'))
 
-    def get_price_bestbuy(self):
-        pass
-
-
-def get_price(url):
-    driver = webdriver.Firefox()
-    driver.get(url)
-    name = driver.find_element(By.XPATH, '//*[@id="productTitle"]').text
-    try:
-        sleep(2)
+    def get_price_bestbuy(cls, self):
+        driver = webdriver.Firefox()
+        Price_Selectors = cls.price_selectors_bestbuy()
+        url = self.url
         driver.get(url)
-        element = driver.find_element_by_class_name(
-            'twisterSwatchPrice a-size-base a-color-base')
-        price = element.get_attribute('innerHTML')
-        return (f'\n{name}\nCosts:{price}\n')
-
-    except NoSuchElementException:
-        sleep(2)
         try:
-            element = driver.find_element_by_xpath(
-                '/html/body/div[1]/div[2]/div[9]/div[6]/div[4]/div[10]/div[2]/div/table/tbody/tr[2]/td[2]/span[1]/span[1]')
+            sleep(3)
+            element = driver.find_element_by_css_selector(Price_Selectors[1])
             price = element.get_attribute('innerHTML')
-            return (f'\n{name}\nCosts:{price}\n')
         except NoSuchElementException:
-            print("Error finding element")
-            pass
+            sleep(2)
+            try:
+                element = driver.find_element_by_xpath(Price_Selectors[0])
+                price = element.get_attribute('innerHTML')
+            except:
+                return(f'\nNo price was found on amazon due to:\n {exception}')
 
-    driver.quit()
-
-
-def get_sale_percentage(url):
-    driver = webdriver.Firefox()
-    driver.get(url)
-    try:
-        sleep(2)
-        driver.get(url)
-        element = driver.find_element_by_class_name('a-color-price')
-        percentage = element.get_attribute('innerHTML')
-        return percentage
-
-    except NoSuchElementException:
-        sleep(2)
-        try:
-            element = driver.find_element_by_xpath(
-                '/html/body/div[1]/div[2]/div[9]/div[6]/div[4]/div[10]/div[2]/div/table/tbody/tr[3]/td[2]/span[1]')
-            percentage = element.get_attribute('innerHTML')
-            return percentage
-        except NoSuchElementException:
-            print("NO SALE")
-            pass
-
-    driver.quit()
+        finally:
+            driver.close()
+            driver.quit()
+            return(float(price))
