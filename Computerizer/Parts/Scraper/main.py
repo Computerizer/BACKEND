@@ -58,12 +58,13 @@ class Scraper:
 #---------------------------------------------------------#
 
     @classmethod
-    def get_price_amazon(cls, URL):
+    def get_price_amazon(cls, self):
         global driver
         Price_Selectors = cls.price_selectors_amazon()
+        url = self.url
         try:
-            sleep(2)
-            driver.get(URL)
+            sleep(3)
+            driver.get(url)
             element = driver.find_element_by_class_name(Price_Selectors[2])
             price = element.get_attribute('innerHTML')
             return (price)
@@ -90,13 +91,13 @@ class Scraper:
         pass
 
 
-def get_price(URL):
+def get_price(url):
     driver = webdriver.Firefox()
-    driver.get(URL)
+    driver.get(url)
     name = driver.find_element(By.XPATH, '//*[@id="productTitle"]').text
     try:
         sleep(2)
-        driver.get(URL)
+        driver.get(url)
         element = driver.find_element_by_class_name(
             'twisterSwatchPrice a-size-base a-color-base')
         price = element.get_attribute('innerHTML')
@@ -116,12 +117,12 @@ def get_price(URL):
     driver.quit()
 
 
-def get_sale_percentage(URL):
+def get_sale_percentage(url):
     driver = webdriver.Firefox()
-    driver.get(URL)
+    driver.get(url)
     try:
         sleep(2)
-        driver.get(URL)
+        driver.get(url)
         element = driver.find_element_by_class_name('a-color-price')
         percentage = element.get_attribute('innerHTML')
         return percentage
