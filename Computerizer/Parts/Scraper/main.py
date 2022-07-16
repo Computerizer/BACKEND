@@ -1,3 +1,4 @@
+from logging import exception
 from xml.dom.minidom import Element
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -7,6 +8,7 @@ from time import sleep, thread_time
 
 
 class Scraper:
+    driver = webdriver.Firefox()
 
     def __init__(self, name, url, oldprice, newprice):
         self.name = name
@@ -56,10 +58,30 @@ class Scraper:
 #---------------------------------------------------------#
 
     @classmethod
-    def get_price_amazon(cls):
+    def get_price_amazon(cls, URL):
+        global driver
         Price_Selectors = cls.price_selectors_amazon()
-        for Price_Selector in Price_Selectors:
-            print(f'Price_Selector \n')
+        try:
+            sleep(2)
+            driver.get(URL)
+            element = driver.find_element_by_class_name(Price_Selectors[2])
+            price = element.get_attribute('innerHTML')
+            return (price)
+        except NoSuchElementException:
+            sleep(2)
+            try:
+                element = driver.find_element_by_xpath(Price_Selectors[0])
+                price = element.get_attribute('innerHTML')
+                return (price)
+            except NoSuchElementException:
+                try:
+                    element = driver.find_element_by_css_selector(
+                        Price_Selectors[1])
+                    price = element.get_attribute('innerHTML')
+                    return (price)
+                except:
+                    return(f'\nNo price was found on amazon due to:\n {exception}')
+        driver.quit()
 
     def get_price_newegg(self):
         pass
@@ -68,10 +90,8 @@ class Scraper:
         pass
 
 
-driver = webdriver.Firefox()
-
-
 def get_price(URL):
+    driver = webdriver.Firefox()
     driver.get(URL)
     name = driver.find_element(By.XPATH, '//*[@id="productTitle"]').text
     try:
@@ -97,6 +117,7 @@ def get_price(URL):
 
 
 def get_sale_percentage(URL):
+    driver = webdriver.Firefox()
     driver.get(URL)
     try:
         sleep(2)
@@ -117,48 +138,3 @@ def get_sale_percentage(URL):
             pass
 
     driver.quit()
-
-
-def get_discount_number(URL):
-    pass
-    """    driver.get(URL)
-    name  = driver.find_element(By.XPATH, '//*[@id="productTitle"]').text   
-    try:
-        driver.get(URL)
-        element = driver.find_element_by_class_name('twisterSwatchPrice a-size-base a-color-base')
-        price = element.get_attribute('innerHTML')
-        return (f'\n{name}\nCosts:{price}\n')
-        
-    except NoSuchElementException:
-        try:
-          element = driver.find_element_by_xpath('/html/body/div[1]/div[2]/div[9]/div[6]/div[4]/div[10]/div[2]/div/table/tbody/tr[2]/td[2]/span[1]/span[1]')
-          price = element.get_attribute('innerHTML')
-          return (f'\n{name}\nCosts:{price}\n')
-        except NoSuchElementException:
-            print("Error finding element")
-            pass
-
-    driver.quit()
- """
-
-
-def return_lowest_price(AMAZONURL, NEWEGGURL, BESTURL):
-    pass
-    """  driver.get(URL)
-    name  = driver.find_element(By.XPATH, '//*[@id="productTitle"]').text   
-    try:
-        driver.get(URL)
-        element = driver.find_element_by_class_name('twisterSwatchPrice a-size-base a-color-base')
-        price = element.get_attribute('innerHTML')
-        return (f'\n{name}\nCosts:{price}\n')
-        
-    except NoSuchElementException:
-        try:
-          element = driver.find_element_by_xpath('/html/body/div[1]/div[2]/div[9]/div[6]/div[4]/div[10]/div[2]/div/table/tbody/tr[2]/td[2]/span[1]/span[1]')
-          price = element.get_attribute('innerHTML')
-          return (f'\n{name}\nCosts:{price}\n')
-        except NoSuchElementException:
-            print("Error finding element")
-            pass
-    
-    driver.quit() """
