@@ -8,7 +8,6 @@ from time import sleep, thread_time
 
 
 class Scraper:
-    driver = webdriver.Firefox()
 
     def __init__(self, name, url, oldprice, newprice):
         self.name = name
@@ -59,33 +58,82 @@ class Scraper:
 
     @classmethod
     def get_price_amazon(cls, self):
-        global driver
+        driver = webdriver.Firefox()
         Price_Selectors = cls.price_selectors_amazon()
+        Decimal_Selectors = cls.decimal_selectors_amazon()
         url = self.url
+        driver.get(url)
         try:
             sleep(3)
-            driver.get(url)
             element = driver.find_element_by_class_name(Price_Selectors[2])
             price = element.get_attribute('innerHTML')
-            return (price)
         except NoSuchElementException:
             sleep(2)
             try:
                 element = driver.find_element_by_xpath(Price_Selectors[0])
                 price = element.get_attribute('innerHTML')
-                return (price)
             except NoSuchElementException:
                 try:
-                    element = driver.find_element_by_css_selector(
-                        Price_Selectors[1])
+                    element = driver.find_element_by_css_selector(Price_Selectors[1])
                     price = element.get_attribute('innerHTML')
-                    return (price)
                 except:
                     return(f'\nNo price was found on amazon due to:\n {exception}')
-        driver.quit()
 
-    def get_price_newegg(self):
-        pass
+        try:
+            sleep(3)
+            element = driver.find_element_by_class_name(Decimal_Selectors[2])
+            decimal = element.get_attribute('innerHTML')
+        except NoSuchElementException:
+            try:
+                sleep(3)
+                element = driver.find_element_by_xpath(Decimal_Selectors[0])
+                decimal = element.get_attribute('innerHTML')
+            except NoSuchElementException:
+                try:
+                    sleep(3)
+                    element = driver.find_element_by_css_selector(Decimal_Selectors[1])
+                    decimal = element.get_attribute('innerHTML')
+                except:
+                    return(f'\nError finding decimal of price due to:\n {exception}')
+        finally:
+            driver.close()
+            driver.quit()
+            return(float(f'{price}.{decimal}'))
+            
+
+    def get_price_newegg(cls, self):
+        driver = webdriver.Firefox()
+        Price_Selectors = cls.price_selectors_newegg()
+        Decimal_Selectors = cls.decimal_selectors_newegg()
+        url = self.url
+        driver.get(url)
+        try:
+            sleep(3)
+            element = driver.find_element_by_css_selector(Price_Selectors[1])
+            price = element.get_attribute('innerHTML')
+        except NoSuchElementException:
+            sleep(2)
+            try:
+                element = driver.find_element_by_xpath(Price_Selectors[0])
+                price = element.get_attribute('innerHTML')
+            except:
+                    return(f'\nNo price was found on amazon due to:\n {exception}')
+
+            try:
+                sleep(3)
+                element = driver.find_element_by_xpath(Decimal_Selectors[0])
+                decimal = element.get_attribute('innerHTML')
+            except NoSuchElementException:
+                try:
+                    sleep(3)
+                    element = driver.find_element_by_css_selector(Decimal_Selectors[1])
+                    decimal = element.get_attribute('innerHTML')
+                except:
+                    return(f'\nError finding decimal of price due to:\n {exception}')
+        finally:
+            driver.close()
+            driver.quit()
+            return(float(f'{price}.{decimal}'))
 
     def get_price_bestbuy(self):
         pass
