@@ -1,7 +1,6 @@
 from random import choices
 from django.db import models
 
-
 class Manufacturer(models.Model):
     Manufacturers = (
         ('AMD', 'AMD'),
@@ -18,7 +17,7 @@ class Manufacturer(models.Model):
         ('Lian Li', 'Lian Li'),
         ('MSI', 'MSI'),
         ('Noctua', 'Noctua'),
-        ('Nvidia', 'Nvidia'),
+        ('NvIDia', 'NvIDia'),
         ('NZXT', 'NZXT'),
         ('PNY', 'PNY'),
         ('PowerColor', 'PowerColor'),
@@ -32,7 +31,7 @@ class Manufacturer(models.Model):
         ('XPG', 'XPG'),
         ('Zotac', 'Zotac'),
     )
-    Id = models.CharField(primary_key=True, null=False, blank=False)
+    ID = models.CharField(primary_key=True, null=False, blank=False, max_length=50)
 
     Parent = models.CharField(choices=Manufacturers, max_length=20, null=True, blank=True, help_text='If a Graphics card is a "XFX Radeon 6600XT" for example, \
     XFX goes into the Name field, and AMD goes into the Parent field')
@@ -49,57 +48,85 @@ class Manufacturer(models.Model):
     Case = models.BooleanField(verbose_name='Manufactures Cases')
     Cooler = models.BooleanField(verbose_name='Manufactures Coolers')
 
+    def __str__(self):
+        return f"{self.Name} -> ({self.Parent})"
+
 
 class CPU_Links(models.Model):
-    Id = models.ForeignKey(
-        'CPU', on_delete=models.CASCADE, null=False, blank=False)
+    ID = models.ForeignKey('CPU', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
     pass
+
+    def __str__(self):
+        return f"CPU: ({self.ID})"
 
 
 class CPU(models.Model):
     Sockets = (
         ('AM4', 'AM4'),
-        ('LGA', 'LGA'),
-        ('LGA', 'LGA'),
-        ('LGA', 'LGA'),
-        ('LGA', 'LGA'),
-        ('LGA', 'LGA'),
+        ('LGA 1700', 'LGA 1700'),
+        ('LGA 1200', 'LGA 1200')
     )
-    Id = models.CharField(primary_key=True, null=False, blank=False)
-    Manufacturer = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
-    Model_Name = models.CharField()
-    Cores = models.PositiveIntegerField()
-    Threads = models.PositiveIntegerField()
-    Speed = models.FloatField()
-    Socket = models.CharField(choices=Sockets, max_length=10)
+    ID                = models.CharField(primary_key=True, null=False, blank=False, max_length=6)
+    Manufacturer      = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
+    Model_Name        = models.CharField(max_length=20)
+    Cores             = models.PositiveIntegerField()
+    Threads           = models.PositiveIntegerField()
+    Speed             = models.FloatField()
+    Socket            = models.CharField(choices=Sockets, max_length=15)
     Power_Consumption = models.PositiveIntegerField()
-    Previous_Price = models.FloatField()
-    Current_Price = models.FloatField()
-    Links = models.ForeignKey('CPU_Links', on_delete=models.PROTECT)
+    Previous_Price    = models.FloatField()
+    Current_Price     = models.FloatField()
+    Links             = models.ForeignKey('CPU_Links', on_delete=models.PROTECT)
     Lowest_Price_Link = models.URLField()
     pass
 
+    def __str__(self):
+        return f"{self.Model_Name} ({self.ID})"
 
-class Cooler_Links(models.Model):
-    Id = models.ForeignKey(
-        'Cooler', on_delete=models.CASCADE, null=False, blank=False)
+
+class AirCooler_Links(models.Model):
+    ID = models.ForeignKey(
+        'AirCooler', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
     pass
 
 
-class Cooler(models.Model):
+class AirCooler(models.Model):
+    Sockets = (
+        ('AM4', 'AM4'),
+        ('LGA 1700', 'LGA 1700'),
+        ('LGA 1200', 'LGA 1200')
+    )
+
+    Sizes = (
+        ('Large', 'Large'),
+        ('Average', 'Average'),
+        ('Small', 'Small')
+    )
+
+    ID                = models.CharField(primary_key=True)
+    Manufacturer      = models.ForeignKey('Manufacturer')
+    Socket            = models.CharField(choices=Sockets, max_length=15)
+    Size              = models.CharField(choices=Sizes, max_length=10)
+    Height            = models.FloatField()
+    WIDth             = models.FloatField()
+    Num_Fans          = models.PositiveIntegerField()
+    Num_Heatsinks     = models.PositiveIntegerField()
+    Previous_Price    = models.FloatField()
+    Current_Price     = models.FloatField()
+    Links             = models.ForeignKey('AirCooler_Links', on_delete=models.PROTECT)
+    Lowest_Price_Link = models.URLField()
 
     pass
 
 
 class GPU_Links(models.Model):
-    Id = models.ForeignKey(
-        'GPU', on_delete=models.CASCADE, null=False, blank=False)
+    ID = models.ForeignKey('GPU', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
@@ -111,8 +138,7 @@ class GPU(models.Model):
 
 
 class Motherboard_Links(models.Model):
-    Id = models.ForeignKey(
-        'Motherboard', on_delete=models.CASCADE, null=False, blank=False)
+    ID = models.ForeignKey('Motherboard', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
@@ -124,8 +150,7 @@ class Motherboard(models.Model):
 
 
 class RAM_Links(models.Model):
-    Id = models.ForeignKey(
-        'RAM', on_delete=models.CASCADE, null=False, blank=False)
+    ID = models.ForeignKey('RAM', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
@@ -137,8 +162,7 @@ class RAM(models.Model):
 
 
 class PSU_Links(models.Model):
-    Id = models.ForeignKey(
-        'PSU', on_delete=models.CASCADE, null=False, blank=False)
+    ID = models.ForeignKey('PSU', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
@@ -146,12 +170,40 @@ class PSU_Links(models.Model):
 
 
 class PSU(models.Model):
+    Ratings = (
+        ('Bronze', 'Bronze'),
+        ('Silver', 'Silver'),
+        ('Gold', 'Gold'),
+        ('Platinum', 'Platinum')
+    )
+    
+    Connectivity = (
+        ('Full Modular', 'Full Modular'),
+        ('Semi Modular', 'Semi Modular'),
+        ('None Modular', 'None Modular'),
+    )
+
+    MOBO_Size = (
+        ('ATX', 'ATX'),
+        ('Mini ATX', 'Mini ATX'),
+        ('Micro ATX', 'Micro ATX'),
+    )
+
+    ID                = models.CharField(primary_key=True)
+    Manufacturer      = models.ForeignKey('Manufacturer')
+    Wattage           = models.IntegerField()
+    Rating            = models.CharField(choices=Ratings, max_length=10)
+    Connection        = models.CharField(choices=Connectivity, max_length=15)
+    Size              = models.CharField(choices=MOBO_Size, max_length=11)
+    Previous_Price    = models.FloatField()
+    Current_Price     = models.FloatField()
+    Links             = models.ForeignKey('PSU_Links', on_delete=models.PROTECT)
+    Lowest_Price_Link = models.URLField()
     pass
 
 
 class Case_Links(models.Model):
-    Id = models.ForeignKey(
-        'Case', on_delete=models.CASCADE, null=False, blank=False)
+    ID = models.ForeignKey('Case', on_delete=models.CASCADE, null=False, blank=False)
     Amazon_URL = models.URLField()
     Newegg_URL = models.URLField()
     BestBuy_URL = models.URLField()
