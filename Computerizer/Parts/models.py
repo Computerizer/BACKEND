@@ -114,7 +114,7 @@ class AirCooler(models.Model):
     Socket            = models.CharField(choices=Sockets, max_length=15)
     Size              = models.CharField(choices=Sizes, max_length=10)
     Height            = models.FloatField()
-    WIDth             = models.FloatField()
+    Width             = models.FloatField()
     Num_Fans          = models.PositiveIntegerField()
     Num_Heatsinks     = models.PositiveIntegerField()
     Previous_Price    = models.FloatField()
@@ -183,7 +183,7 @@ class PSU(models.Model):
         ('None Modular', 'None Modular'),
     )
 
-    MOBO_Size = (
+    Size = (
         ('ATX', 'ATX'),
         ('Mini ATX', 'Mini ATX'),
         ('Micro ATX', 'Micro ATX'),
@@ -194,7 +194,7 @@ class PSU(models.Model):
     Wattage           = models.IntegerField()
     Rating            = models.CharField(choices=Ratings, max_length=10)
     Connection        = models.CharField(choices=Connectivity, max_length=15)
-    Size              = models.CharField(choices=MOBO_Size, max_length=11)
+    Size              = models.CharField(choices=Size, max_length=11)
     Previous_Price    = models.FloatField()
     Current_Price     = models.FloatField()
     Links             = models.ForeignKey('PSU_Links', on_delete=models.PROTECT)
@@ -211,4 +211,24 @@ class Case_Links(models.Model):
 
 
 class Case(models.Model):
+    
+    InSize = (
+        ('ATX', 'ATX'),
+        ('Mini ATX', 'Mini ATX'),
+        ('Micro ATX', 'Micro ATX'),
+    )
+
+    ID                = models.CharField(primary_key=True)
+    Manufacturer      = models.ForeignKey('Manufacturer')
+    Size              = models.CharField(choices=InSize, max_length=11)
+    Height            = models.FloatField()
+    Width             = models.FloatField()
+    RGB               = models.BooleanField()
+    Color             = models.CharField(default='#RRGGBB', max_length=8) #Write the color value as a hex string
+    Has_fans          = models.BooleanField()
+    Num_fans          = models.IntegerField()
+    Previous_Price    = models.FloatField()
+    Current_Price     = models.FloatField()
+    Links             = models.ForeignKey('Case_Links', on_delete=models.PROTECT)
+    Lowest_Price_Link = models.URLField()
     pass
