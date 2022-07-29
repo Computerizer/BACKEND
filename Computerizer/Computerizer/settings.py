@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'Oauth',
     'Parts',
     'TPA',
-    'rest_framework'
+    'rest_framework',
+    'colorfield '
 ]
 
 MIDDLEWARE = [

@@ -109,14 +109,15 @@ class AirCooler(models.Model):
         ('Small', 'Small')
     )
 
-    ID                = models.CharField(primary_key=True)
-    Manufacturer      = models.ForeignKey('Manufacturer')
+    ID                = models.CharField(primary_key=True, max_length=10)
+    Manufacturer      = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
     Socket            = models.CharField(choices=Sockets, max_length=15)
     Size              = models.CharField(choices=Sizes, max_length=10)
     Height            = models.FloatField()
     Width             = models.FloatField()
     Num_Fans          = models.PositiveIntegerField()
     Num_Heatsinks     = models.PositiveIntegerField()
+    Power_Consumption = models.IntegerField()
     Previous_Price    = models.FloatField()
     Current_Price     = models.FloatField()
     Links             = models.ForeignKey('AirCooler_Links', on_delete=models.PROTECT)
@@ -158,6 +159,44 @@ class RAM_Links(models.Model):
 
 
 class RAM(models.Model):
+
+    Number_of_Channels = (
+        ('Single', 'Single'),
+        ('Dual', 'Dual'),
+        ('Four', 'Four')
+    )
+
+    RAM_Capacity = (
+        (4, 4),
+        (8, 8),
+        (16, 16),
+        (32, 32),
+        (64, 64),
+        (128, 128)
+    )
+
+    DDR_Type = (
+        ('DDR3', 'DDR3'),
+        ('DDR4', 'DDR4'),
+        ('DDR5', 'DDR5')
+    )
+
+    
+
+    ID                = models.CharField(primary_key=True, max_length=10)
+    Manufacturer      = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
+    Capacity          = models.IntegerField(choices=RAM_Capacity)
+    Channels          = models.CharField(choices=Number_of_Channels, max_length=20)
+    Speed             = models.FloatField() #in GhZ
+    Type              = models.CharField(choices=DDR_Type)
+    Pins              = models.IntegerField()
+    Color_Name        = models.CharField(default='Black', max_length=15) #Write the color name corresponding to the Hex value below 
+    Color_Hex         = models.CharField(default='#RRGGBB', max_length=8) #Write the color value as a hex string
+    Power_Consumption = models.IntegerField()
+    Previous_Price    = models.FloatField()
+    Current_Price     = models.FloatField()
+    Links             = models.ForeignKey('PSU_Links', on_delete=models.PROTECT)
+    Lowest_Price_Link = models.URLField()
     pass
 
 
@@ -189,8 +228,8 @@ class PSU(models.Model):
         ('Micro ATX', 'Micro ATX'),
     )
 
-    ID                = models.CharField(primary_key=True)
-    Manufacturer      = models.ForeignKey('Manufacturer')
+    ID                = models.CharField(primary_key=True, max_length=10)
+    Manufacturer      = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
     Wattage           = models.IntegerField()
     Rating            = models.CharField(choices=Ratings, max_length=10)
     Connection        = models.CharField(choices=Connectivity, max_length=15)
@@ -218,13 +257,15 @@ class Case(models.Model):
         ('Micro ATX', 'Micro ATX'),
     )
 
-    ID                = models.CharField(primary_key=True)
-    Manufacturer      = models.ForeignKey('Manufacturer')
+    ID                = models.CharField(primary_key=True, max_length=10)
+    Manufacturer      = models.ForeignKey('Manufacturer', on_delete=models.CASCADE)
+    Name              = models.CharField(max_length=20)
     Size              = models.CharField(choices=InSize, max_length=11)
     Height            = models.FloatField()
     Width             = models.FloatField()
     RGB               = models.BooleanField()
-    Color             = models.CharField(default='#RRGGBB', max_length=8) #Write the color value as a hex string
+    Color_Name        = models.CharField(default='Black', max_length=15) #Write the color name corresponding to the Hex value below 
+    Color_Hex         = models.CharField(default='#RRGGBB', max_length=8) #Write the color value as a hex string
     Has_fans          = models.BooleanField()
     Num_fans          = models.IntegerField()
     Previous_Price    = models.FloatField()
@@ -232,3 +273,6 @@ class Case(models.Model):
     Links             = models.ForeignKey('Case_Links', on_delete=models.PROTECT)
     Lowest_Price_Link = models.URLField()
     pass
+
+    def __str__(self):
+        return f"{self.Manufacturer} {self.Name} ({self.ID})"
